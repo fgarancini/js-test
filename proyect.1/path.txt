@@ -1,0 +1,26 @@
+Vamos a hacer una aplicacion sobre un backend,
+que permita el login de (usuarios con hash de contraseña(si se puede?)),
+encuentren una pagina donde pueden acceder a la compra y venta de aviones (conseguir api de aviones)
+
+Vamos a dividr la aplicacion con la cantidad necesaria de abstracción
+
+    Server: Levantar el puerto importando el modulo de la app
+    y por medio de express.
+
+    App: Vamos a utilizar express() para crear nuestra app, por separado tendre
+    mos el import a los routers. Separado de esta forma;
+
+        Usando el metodo use() de express 
+        Usaremos los middleware 'morgan' para conectar con la base de datos,
+        'json' para formatear los datos, 'morgan' tiene como parametro tiny o dev
+        que nos muestran la respuesta del servidor.
+
+        Llamaremos a las rutas por medio del use() y usaremos nuestro middleware de las rutas.
+
+        Exportaremos la app
+
+    Router: El router es la ramificacion de las rutas especificadas, contiene nuestro CRUD.
+
+    Controllers: Contienen los middlware de las funciones y su validaciones.
+
+    
