@@ -1,0 +1,10 @@
+nav{
+    background-color: #8079d3;
+}
+
+a{
+    color:gainsboro;
+    margin-left: 20px;
+    text-decoration: underline gainsboro;
+    /* text-decoration-color: gainsboro; */
+}
